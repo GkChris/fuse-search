@@ -35,7 +35,9 @@ console.log(search);
 
 ## Arguments 
 
+```
 - query -> required -> string
 - data -> required -> array
 - keys -> required -> array 
 - threshold -> optional -> number
+```
