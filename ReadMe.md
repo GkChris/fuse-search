@@ -46,4 +46,5 @@ console.log(search);
 
 ## Repository
 
-[](https://github.com/GkChris/fuse-search.git)
+Link: [git@github.com:GkChris/fuse-search.git](https://github.com/GkChris/fuse-search.git).
+
