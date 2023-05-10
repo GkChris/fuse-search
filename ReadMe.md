@@ -4,6 +4,8 @@
 
 fuseSearch uses fuse.js to performe easy search on arrays of objects.
 
+It uses several validators and returns an array if objects in the exact same format as the input array.
+
 ## Install 
 
 ```Javascript
