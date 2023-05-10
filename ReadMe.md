@@ -1,20 +1,22 @@
 # fuseSearch
 
-## fuseSearch uses fuse.js to performe easy search on arrays of objects.
+## Description
 
-### Install 
+fuseSearch uses fuse.js to performe easy search on arrays of objects.
+
+## Install 
 
 ```Javascript
 npm i fuse-search
 ```
 
-### Import
+## Import
 
 ```Javascript
 require('fuse-search');
 ```
 
-### Usage 
+## Usage 
 
 ```Javascript
 const fuseSearch = require('fuse-search');
@@ -31,11 +33,9 @@ console.log(search);
 [output] > [{name: 'John', age: 18}];
 ```
 
-### Arguments 
+## Arguments 
 
-```Javascript
-    query -> required -> string
-    data -> required -> array
-    keys -> required -> array 
-    threshold -> optional -> number
-```
+- query -> required -> string
+- data -> required -> array
+- keys -> required -> array 
+- threshold -> optional -> number
