@@ -1,6 +1,6 @@
 {
   "name": "fuse-search",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "fuseSearch uses fuse.js to performe easy search on arrays of objects",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,9 @@
   ],
   "dependencies": {
     "fuse.js": "^6.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GkChris/fuse-search.git"
   }
 }
