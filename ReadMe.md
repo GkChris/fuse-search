@@ -44,6 +44,6 @@ console.log(search);
 - keys -> required -> array 
 - threshold -> optional -> number
 
-### Repository
+## Repository
 
-[label](git@github.com:GkChris/fuse-search.git)
+[](https://github.com/GkChris/fuse-search.git)
