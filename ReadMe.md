@@ -2,11 +2,11 @@
 
 ## Description
 
-fuseSearch uses fuse.js to performe easy search on arrays of objects.
+fuseSearch is a function that utilizes fuse.js library to perform easy search operations on arrays of objects. It is designed to simplify the process of searching and filtering data.
 
-Several validations are performed on the given arguments in order to validate.
+The function performs several validations on the provided arguments to ensure their correctness and validity. These validations help maintain the integrity of the search process.
 
-Returns an array of objects in the exact same format as the input array.
+Upon completion, fuseSearch returns an array of objects in the exact same format as the input array. This ensures consistency and allows for easy integration with existing data structures and workflows.
 
 ## Install 
 
@@ -28,7 +28,7 @@ const fuseSearch = require('fuse-search');
 const query = 'John';
 const data = [{name: 'John', age: 18}, {name: 'Alex', age: 21}];
 const keys = ['name'];
-const threshold = 0.4; // Default 0.6
+const threshold = 0.4; 
 
 const search = fuseSearch(query, data, keys, threshold);
 
@@ -37,12 +37,15 @@ console.log(search);
 [output] > [{name: 'John', age: 18}];
 ```
 
-## Arguments 
+## Arguments
 
-- query -> required -> string
-- data -> required -> array
-- keys -> required -> array 
-- threshold -> optional -> number
+| Argument   | Required | Type   | Description                                      |
+|------------|----------|--------|--------------------------------------------------|
+| query      | required | string | Represents the query.                            |
+| data       | required | array  | Contains the data.                               |
+| keys       | required | array  | Specifies the keys.                              |
+| threshold  | optional | number | Represents the threshold (default: 0.6).         |
+
 
 ## Repository
 

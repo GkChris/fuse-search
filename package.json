@@ -1,13 +1,13 @@
 {
   "name": "fuse-search",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "fuseSearch uses fuse.js to performe easy search on arrays of objects",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "GkChris",
-  "license": "MIT",
+  "license": "ISC",
   "keywords": [
     "search",
     "fuse"
