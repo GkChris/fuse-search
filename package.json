@@ -1,7 +1,7 @@
 {
   "name": "fuse-search",
-  "version": "1.0.12",
-  "description": "fuseSearch uses fuse.js to performe easy search on arrays of objects",
+  "version": "1.0.13",
+  "description": "fuseSearch is a function that utilizes fuse.js library to perform easy search operations on arrays of objects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
